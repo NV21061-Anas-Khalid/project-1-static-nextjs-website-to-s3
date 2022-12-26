@@ -36,13 +36,13 @@ export default function Uses() {
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        title="Anas Khalid, Cloud engner"
+        intro="I get asked a lot about the things in cloud."
       >
         <div className="space-y-20">
-          <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
+          <ToolsSection title="Cloud class">
+            <Tool title="Dell computer (2022)">
+              I was using an Dell computer prior to this and the
               difference is night and day. I’ve never heard the fans turn on a
               single time, even under the incredibly heavy loads I put it
               through with our various launch simulations.
@@ -68,9 +68,9 @@ export default function Uses() {
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
+            <Tool title="Visual Studio Code">
               I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
+              everyone else relies on, Visual Studio Code is still the best text
               editor ever made.
             </Tool>
             <Tool title="iTerm2">
