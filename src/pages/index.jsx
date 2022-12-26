@@ -18,7 +18,7 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
+import logoFacebook from '@/images/logos/nvtclogo.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
@@ -94,7 +94,7 @@ function Article({ article }) {
         {formatDate(article.date)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
+      <Card.Cta>learn more</Card.Cta>
     </Card>
   )
 }
@@ -140,34 +140,34 @@ function Resume() {
   let resume = [
     {
       company: 'NVTC',
-      title: 'CEO',
+      title: 'Student',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'Jazeera',
+      title: 'Office manegar',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      start: '1994',
+      end: '2022',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
+      company: 'AWS',
+      title: 'Cloud Engineer',
       logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      start: '1960',
+      end: '2030',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
+      company: 'MKS',
+      title: 'Student',
       logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2009',
+      end: '2016',
     },
   ]
 
