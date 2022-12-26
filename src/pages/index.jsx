@@ -156,7 +156,7 @@ function Resume() {
     {
       company: 'AWS',
       title: 'Cloud Engineer',
-      start: '1999',
+      start: '2017',
       end: '2019',
     },
     {
