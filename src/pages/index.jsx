@@ -141,7 +141,6 @@ function Resume() {
     {
       company: 'NVTC',
       title: 'Student',
-      logo: logoPlanetaria,
       start: '2021',
       end: {
         label: 'Present',
@@ -151,21 +150,18 @@ function Resume() {
     {
       company: 'Jazeera',
       title: 'Office manegar',
-      logo: logoAirbnb,
       start: '1994',
       end: '2022',
     },
     {
       company: 'AWS',
       title: 'Cloud Engineer',
-      logo: logoFacebook,
       start: '1960',
       end: '2030',
     },
     {
       company: 'MKS',
       title: 'Student',
-      logo: logoStarbucks,
       start: '2009',
       end: '2016',
     },
