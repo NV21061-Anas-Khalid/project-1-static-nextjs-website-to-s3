@@ -45,7 +45,7 @@ export default function ArticlesIndex({ articles }) {
         />
       </Head>
       <SimpleLayout
-        title="Writing on AWS Cloud, company building, and the aerospace industry."
+        title="AWS Cloud, company building, and the aerospace industry."
         intro="All of my long-form thoughts on programming, leadership, and more, collected in chronological order."
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
