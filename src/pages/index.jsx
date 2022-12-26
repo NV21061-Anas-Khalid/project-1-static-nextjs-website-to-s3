@@ -18,7 +18,6 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoAWS from '@/images/logos/aws-logo.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
@@ -141,32 +140,32 @@ function Resume() {
   let resume = [
     {
       company: 'NVTC',
-      title: 'Student',
+      title: 'CEO',
       logo: logoPlanetaria,
-      start: '2021',
+      start: '2019',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Jazeera Rostery',
-      title: 'CEO',
+      company: 'Airbnb',
+      title: 'Product Designer',
       logo: logoAirbnb,
-      start: '1994',
-      
+      start: '2014',
+      end: '2019',
     },
     {
-      company: 'Apple',
+      company: 'Facebook',
       title: 'iOS Software Engineer',
       logo: logoFacebook,
-      start: '1960',
-      end: '2029',
+      start: '2011',
+      end: '2014',
     },
     {
-      company: 'AWS',
-      title: 'Cloud Enginer',
-      logo: logoFacebook,
+      company: 'Starbucks',
+      title: 'Shift Supervisor',
+      logo: logoStarbucks,
       start: '2008',
       end: '2011',
     },
@@ -252,11 +251,11 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Anas Khalid - Software designer, founder, and amateur astronaut
+          Spencer Sharp - Software designer, founder, and amateur astronaut
         </title>
         <meta
           name="description"
-          content="I’m Anas, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
         />
       </Head>
       <Container className="mt-9">
@@ -265,7 +264,7 @@ export default function Home({ articles }) {
             Software designer, founder, and amateur astronaut.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Anas, a software designer and entrepreneur based in New York
+            I’m Spencer, a software designer and entrepreneur based in New York
             City. I’m the founder and CEO of Planetaria, where we develop
             technologies that empower regular people to explore space on their
             own terms.
