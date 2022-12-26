@@ -166,7 +166,7 @@ function Resume() {
     {
       company: 'AWS',
       title: 'Cloud Enginer',
-      logo: logoAWS,
+      logo: logoFacebook,
       start: '2008',
       end: '2011',
     },
