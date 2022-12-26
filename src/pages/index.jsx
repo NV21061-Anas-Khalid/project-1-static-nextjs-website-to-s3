@@ -151,13 +151,13 @@ function Resume() {
       company: 'Jazeera',
       title: 'Office manegar',
       start: '1994',
-      end: '2022',
+      end: '2020',
     },
     {
       company: 'AWS',
       title: 'Cloud Engineer',
-      start: '1960',
-      end: '2030',
+      start: '1999',
+      end: '2019',
     },
     {
       company: 'MKS',
