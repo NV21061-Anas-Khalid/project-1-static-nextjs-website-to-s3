@@ -32,7 +32,7 @@ export default function Speaking() {
         <title>Speaking - Anas Khalid</title>
         <meta
           name="description"
-          content="I’ve spoken at events all around the world and been interviewed for many podcasts."
+          content="I’ve spoken all around the world about cloud computing."
         />
       </Head>
       <SimpleLayout
