@@ -29,7 +29,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Anas Khalid Hamdan</title>
+        <title>Anas Khalid Hamdan</title>
         <meta
           name="description"
           content="other things i recomend from my previous at NVTC project."
